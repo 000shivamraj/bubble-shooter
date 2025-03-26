@@ -1,0 +1,27 @@
+/* Set the background and center the game canvas */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Style the game canvas */
+canvas {
+    background: white;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Loading message or errors */
+#loading {
+    font-size: 20px;
+    font-weight: bold;
+}
